@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ラーメン画像テンプレート</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1>🍜 ラーメン画像テンプレート</h1>
+
+<div class="container">
+
+    <input type="file" id="imageInput" accept="image/*">
+
+    <input
+        type="text"
+        id="store"
+        placeholder="店名">
+
+    <input
+        type="text"
+        id="menu"
+        placeholder="商品名">
+
+    <input
+        type="text"
+        id="location"
+        placeholder="場所">
+
+    <button id="createBtn">
+        画像を作成
+    </button>
+
+    <canvas id="canvas" width="1080" height="1350"></canvas>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
